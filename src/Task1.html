@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Yelyzaveta Tretiak">
+    <title>Form for Teacher</title>
+
+</head>
+<body style="background-color: lavender">
+<h1>Form for Teacher</h1>
+<!-- start of the form-->
+<form>
+Full name: <br>
+    <label>
+        <input type="text" name="full name:">
+    </label>
+<br>
+    Gender:
+    <br>
+    <input type="radio" name="gender" id="male">
+    <label for="male">Male</label><br>
+
+    <input type="radio" name="gender" id="female">
+    <label for="female">Female</label><br>
+
+    <input type="radio" name="gender" id="nottorespond">
+    <label for="nottorespond">Prefer not to respond</label><br>
+
+    <input type="radio" name="gender" id="transgender">
+    <label for="transgender">Transgender</label><br>
+
+    <input type="radio" name="gender" id="nonbinary">
+    <label for="nonbinary">Non-binary/non-conforming</label><br>
+
+    Date of birth:
+    <label>
+        <input type="date" name="birthdate">
+    </label>
+    <br>
+
+    Email: <br>
+    <label>
+        <input type="email" name="email">
+    </label>
+<br>
+
+    Phone number: <br>
+    <label>
+        <input type="tel">
+    </label>
+    <br>
+
+    Preferred color of background: <br>
+    <label>
+        <input type="color" name="color">
+    </label>
+<br>
+
+    Country: <br>
+    <label for="country"></label><select name="country" id="country">
+        <option value="Ukraine">Ukraine</option>
+        <option value="Poland">Poland</option>
+        <option value="Germany">Germany</option>
+    </select> <br>
+
+    City: <br>
+    <label for="city"></label><select name="city" id="city">
+    <option value="Kyiv">Kyiv</option>
+    <option value="Lviv">Lviv</option>
+    <option value="Warsaw">Warsaw</option>
+    <option value="Berlin">Berlin</option>
+</select><br>
+    Comment: <br>
+    <textarea id="comment" rows="4" cols="50"></textarea>
+<br>
+    <br>
+    <input type="submit" value="Submit">
+<!-- end of the form-->
+</form>
+</body>
+</html>
